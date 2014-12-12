@@ -3,10 +3,11 @@
   <arg name="use_sim_time" default="true" />
   <arg name="gui" default="true" />
   <arg name="headless" default="false" />
-  <arg name="world_name" default="$(find jackal_gazebo)/worlds/scenario1.world" />
+  <arg name="world_name" default="$(find jackal_gazebo)/worlds/jackal_race.world" />
 
   <!-- Jackal accessories which may be simulated. Pass true to enable. -->
   <arg name="front_laser" default="false" />
+  <arg name="camera" default="false"/>
 
   <!-- Launch Gazebo with the empty world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
@@ -21,13 +22,16 @@
   <include file="$(find jackal_description)/launch/description.launch">
     <arg name="accessories" value="true" />
     <arg name="front_laser" value="$(arg front_laser)" />
+    <arg name="camera" value="$(arg camera)" />
   </include>
 
   <!-- Load Jackal's controllers -->
   <include file="$(find jackal_control)/launch/control.launch" />
-
+  
   <!-- Load Jackal's teleop nodes -->
-  <include file="$(find jackal_control)/launch/teleop.launch" />
+  <include file="$(find jackal_control)/launch/teleop.launch">
+    <arg name="joystick" value="false"/>
+  </include>
 
   <!-- Spawn Jackal -->
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model"
