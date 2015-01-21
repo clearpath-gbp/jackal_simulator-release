@@ -1,0 +1,12 @@
+Source: ros-indigo-jackal-gazebo
+Section: misc
+Priority: extra
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-roslaunch
+Homepage: http://wiki.ros.org/jackal_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-indigo-jackal-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-gazebo-plugins, ros-indigo-gazebo-ros, ros-indigo-gazebo-ros-control, ros-indigo-hector-gazebo-plugins, ros-indigo-jackal-control (>= 0.5), ros-indigo-jackal-description (>= 0.5)
+Description: Launchfiles to use Jackal in Gazebo.
