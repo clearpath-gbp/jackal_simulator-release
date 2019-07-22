@@ -1,3 +1,28 @@
+## jackal_simulator (melodic) - 0.3.0-1
+
+The packages in the `jackal_simulator` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic jackal_simulator` on `Mon, 22 Jul 2019 14:36:38 -0000`
+
+These packages were released:
+- `jackal_gazebo`
+- `jackal_simulator`
+
+Version of package(s) in repository `jackal_simulator`:
+
+- upstream repository: https://github.com/jackal/jackal_simulator
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.12`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.40`
+
+
 ## jackal_simulator (kinetic) - 0.3.0-0
 
 The packages in the `jackal_simulator` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release jackal_simulator -t kinetic -r kinetic --new-track` on `Thu, 12 Apr 2018 05:52:26 -0000`
