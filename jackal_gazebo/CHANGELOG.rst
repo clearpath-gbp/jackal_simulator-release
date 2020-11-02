@@ -2,13 +2,13 @@
 Changelog for package jackal_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.3.1 (2020-08-24)
+0.4.0 (2020-08-24)
 ------------------
 * Enable the joystick by default. Add yaw to the spawn_jackal launch file
 * Add an additional parameter to enable teleop in the simulations
-* Cherry-pick from recent melodic updates
-* Moved spawning into a specific launch, so this is more portable to other packages
-* Contributors: Chris Iverach-Brereton, Dave Niewinski
+* Fix an accidental deletion of a closing tag
+* Move the jackal-spawning into a separate launch file for compatibility with the new sim environments.  Add additional sim worlds: completely empty (useful for replaying bag files w/o risk of obstacle collisions!) and HRTAC since the world was in the repo, but not actually used
+* Contributors: Chris I-B, Chris Iverach-Brereton, Dave Niewinski, Tony Baltovski
 
 0.3.0 (2015-01-20)
 ------------------
