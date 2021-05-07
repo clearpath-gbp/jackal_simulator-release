@@ -1,3 +1,28 @@
+## jackal_simulator (noetic) - 0.4.0-2
+
+The packages in the `jackal_simulator` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic jackal_simulator` on `Fri, 07 May 2021 22:49:35 -0000`
+
+These packages were released:
+- `jackal_gazebo`
+- `jackal_simulator`
+
+Version of package(s) in repository `jackal_simulator`:
+
+- upstream repository: https://github.com/jackal/jackal_simulator
+- release repository: https://github.com/clearpath-gbp/jackal_simulator-release.git
+- rosdistro version: `0.4.0-1`
+- old version: `0.4.0-1`
+- new version: `0.4.0-2`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.1`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## jackal_simulator (noetic) - 0.4.0-1
 
 The packages in the `jackal_simulator` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --new-track --no-pull-request -t noetic -r noetic jackal_simulator` on `Fri, 23 Apr 2021 19:03:44 -0000`
