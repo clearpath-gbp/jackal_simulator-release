@@ -1,0 +1,12 @@
+Source: ros-noetic-jackal-gazebo
+Section: misc
+Priority: optional
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-roslaunch
+Homepage: http://wiki.ros.org/jackal_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-noetic-jackal-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-gazebo-plugins, ros-noetic-gazebo-ros, ros-noetic-gazebo-ros-control, ros-noetic-hector-gazebo-plugins, ros-noetic-jackal-control (>= 0.5), ros-noetic-jackal-description (>= 0.5)
+Description: Launchfiles to use Jackal in Gazebo.
