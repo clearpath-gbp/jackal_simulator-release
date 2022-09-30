@@ -2,6 +2,12 @@
 Changelog for package jackal_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.0 (2022-09-30)
+------------------
+* Cleanup
+* Working gazebo
+* Contributors: Roni Kreinin
+
 0.4.0 (2020-08-24)
 ------------------
 * Enable the joystick by default. Add yaw to the spawn_jackal launch file
