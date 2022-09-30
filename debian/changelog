@@ -1,0 +1,52 @@
+ros-foxy-jackal-simulator (1.0.0-1focal) focal; urgency=high
+
+  * Working gazebo
+  * Contributors: Roni Kreinin
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Fri, 30 Sep 2022 04:00:00 -0000
+
+ros-foxy-jackal-simulator (0.4.0-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Mon, 24 Aug 2020 04:00:00 -0000
+
+ros-foxy-jackal-simulator (0.3.0-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Tue, 20 Jan 2015 05:00:00 -0000
+
+ros-foxy-jackal-simulator (0.2.3-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Fri, 12 Dec 2014 05:00:00 -0000
+
+ros-foxy-jackal-simulator (0.2.2-1focal) focal; urgency=high
+
+  * Add author tags.
+  * Contributors: Mike Purvis
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Wed, 10 Sep 2014 04:00:00 -0000
+
+ros-foxy-jackal-simulator (0.2.1-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Wed, 10 Sep 2014 04:00:00 -0000
+
+ros-foxy-jackal-simulator (0.2.0-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Tue, 09 Sep 2014 04:00:00 -0000
+
+ros-foxy-jackal-simulator (0.1.0-1focal) focal; urgency=high
+
+  * Initial version
+  * Contributors: Mike Purvis
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Sun, 07 Sep 2014 04:00:00 -0000
+
+
